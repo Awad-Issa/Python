@@ -1,0 +1,26 @@
+>>> print("Hello World")
+Hello World
+>>> your_name = "Awad"
+>>> print("Hello",your_name)
+Hello Awad
+>>> print("Hello"+your_name)
+HelloAwad
+>>> print("Hello"+yourname)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'yourname' is not defined. Did you mean: 'your_name'?
+>>> print("Hello"+your_name)
+HelloAwad
+>>> num = 22
+>>> print("hello",num)
+hello 22
+>>> print("Hello"+num)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> print(f"hello+{num}")
+hello+22
+>>> print("I love {} and {}".format(foodone, foodtwo))
+I love apple and mango
+>>> print(f"I love {foodone} and {foodtwo}")
+I love apple and mango

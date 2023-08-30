@@ -1,0 +1,31 @@
+pip list:
+listed installed pakages
+ 
+deactivate:
+for diactivating the enviroment
+
+pip3 list:
+return all the packages installed, along with their specific version and location 
+
+call myEnvironments/py3Env/Scripts/activate:
+for activat the enviroment
+
+pip install Django==2.2.4:
+pytz, sqlparse, Django
+
+freez:
+shows what we installed from pip
+
+pip freeze > requirements.txt:
+doing nothing
+
+pip uninstall Django:
+uninstall
+
+pip show Django:
+not found because its been uninstalled
+
+
+
+
+
